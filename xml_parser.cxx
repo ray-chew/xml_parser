@@ -1,12 +1,12 @@
 /**
- * \file ex2.cxx
+ * \file xml_parser.cxx
  * \author Ray Chew
  * \date 5 June 2017
  * \brief XML Parser and Validator for measured-*.xml
  */
 
 /**
- * \mainpage Ex2
+ * \mainpage xml_parser
  * 
  * \section Description
  * 
@@ -14,8 +14,8 @@
  * Reads XML file and writes the day, hour and amount of power to file `csv.txt`.<br>
  * 
  * * namespace-location pair: `"http://gaslab.zib.de/kwpt/measured ./measured-1-1-0.xsd"`<br>
- * * compile: `g++ -std=c++11 -O3 ex2.cxx -o ex2 -lxerces-c`<br>
- * * run: `./ex2 filepath/file.xml [-v]`<br>
+ * * compile: `g++ -std=c++11 -O3 xml_parser.cxx -o xml_parser -lxerces-c`<br>
+ * * run: `./xml_parser filepath/file.xml [-v]`<br>
  * * validation: enable `-V` flag
  */
 

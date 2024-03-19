@@ -6,7 +6,7 @@ CFLAGS = -std=c++11 -O3
 LIBS = -lxerces-c
 
 # target executable to build:
-TARGET = ex2
+TARGET = xml_parser
 
 # xml data file to read:
 DATA = measured-1.0.0.2017-02-03.b0050c5c8deb1db59c7b2644414b079d.xml
